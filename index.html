@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Sai Hospital | Premium Healthcare Services</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="pulse-loader">
+            <i class="fas fa-heartbeat"></i>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-plus"></i>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-name">Sri Sai</span>
+                    <span class="logo-sub">Hospital</span>
+                </div>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#doctors">Doctors</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#consultation">Consultation</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#booking" class="btn-nav"><i class="fas fa-calendar-check"></i> Book Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="floating-icons">
+                <i class="fas fa-heartbeat float-icon fi-1"></i>
+                <i class="fas fa-leaf float-icon fi-2"></i>
+                <i class="fas fa-baby float-icon fi-3"></i>
+                <i class="fas fa-stethoscope float-icon fi-4"></i>
+            </div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <div class="hero-badge">
+                    <i class="fas fa-award"></i>
+                    <span>Government of Bihar Recognized</span>
+                </div>
+                <h1>Caring for Life,<br><span class="gradient-text">Healing with Heart</span></h1>
+                <p class="hero-subtitle">Expert Ayurvedic & Modern Healthcare — Gynaecology, Child Care & General Medicine under one trusted roof.</p>
+                <div class="hero-btns">
+                    <a href="#booking" class="btn btn-primary btn-glow">
+                        <i class="fas fa-calendar-alt"></i> Book Appointment
+                    </a>
+                    <a href="#consultation" class="btn btn-glass">
+                        <i class="fas fa-video"></i> Online Consultation
+                    </a>
+                </div>
+                <div class="hero-trust">
+                    <div class="trust-avatars">
+                        <div class="avatar"><i class="fas fa-user"></i></div>
+                        <div class="avatar"><i class="fas fa-user"></i></div>
+                        <div class="avatar"><i class="fas fa-user"></i></div>
+                        <div class="avatar avatar-more">+</div>
+                    </div>
+                    <p><strong>15,000+</strong> Happy Patients Trust Us</p>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-card-stack">
+                    <div class="hero-info-card hc-1">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>AYUSH Certified</span>
+                    </div>
+                    <div class="hero-info-card hc-2">
+                        <i class="fas fa-clock"></i>
+                        <span>24/7 Emergency</span>
+                    </div>
+                    <div class="hero-info-card hc-3">
+                        <i class="fas fa-star"></i>
+                        <span>4.9 Rating</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0,60 C360,120 720,0 1080,60 C1260,90 1380,80 1440,60 L1440,120 L0,120 Z" fill="white"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Stats Bar -->
+    <section class="stats-bar">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-user-md"></i></div>
+                    <div class="stat-content">
+                        <span class="stat-number" data-count="2">0</span>
+                        <span class="stat-label">Expert Doctors</span>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-users"></i></div>
+                    <div class="stat-content">
+                        <span class="stat-number" data-count="15000">0</span>
+                        <span class="stat-label">Patients Treated</span>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-award"></i></div>
+                    <div class="stat-content">
+                        <span class="stat-number" data-count="10">0</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-smile"></i></div>
+                    <div class="stat-content">
+                        <span class="stat-number" data-count="98">0</span>
+                        <span class="stat-label">% Satisfaction</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-info-circle"></i> About Us</span>
+                <h2>A Legacy of <span class="gradient-text">Healing & Care</span></h2>
+                <p class="section-desc">Sri Sai Hospital combines ancient Ayurvedic wisdom with modern medical practices for comprehensive family healthcare.</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card" data-aos="fade-up">
+                    <div class="about-icon-wrap">
+                        <div class="about-icon"><i class="fas fa-leaf"></i></div>
+                    </div>
+                    <h3>Ayurvedic Excellence</h3>
+                    <p>Government-recognized AYUSH practices rooted in ancient healing traditions.</p>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-delay="100">
+                    <div class="about-icon-wrap">
+                        <div class="about-icon"><i class="fas fa-heartbeat"></i></div>
+                    </div>
+                    <h3>Modern Diagnostics</h3>
+                    <p>State-of-the-art equipment and treatment protocols for best outcomes.</p>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-delay="200">
+                    <div class="about-icon-wrap">
+                        <div class="about-icon"><i class="fas fa-hand-holding-heart"></i></div>
+                    </div>
+                    <h3>Compassionate Care</h3>
+                    <p>Patient-first approach with personalized treatment and follow-up care.</p>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-delay="300">
+                    <div class="about-icon-wrap">
+                        <div class="about-icon"><i class="fas fa-certificate"></i></div>
+                    </div>
+                    <h3>Govt. Recognized</h3>
+                    <p>Fully licensed by the Government of Bihar for quality healthcare delivery.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Doctors Section -->
+    <section class="section doctors" id="doctors">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-user-md"></i> Our Experts</span>
+                <h2>Meet Our <span class="gradient-text">Specialists</span></h2>
+                <p class="section-desc">Experienced professionals dedicated to your health and wellbeing.</p>
+            </div>
+            <div class="doctors-grid">
+                <!-- Dr. Sarita Singh -->
+                <div class="doctor-card">
+                    <div class="doctor-glow"></div>
+                    <div class="doctor-header">
+                        <div class="doctor-avatar-wrap">
+                            <div class="doctor-avatar">
+                                <img src="images/dr-sarita.jpg" alt="Dr. Sarita Singh">
+                            </div>
+                            <div class="avatar-ring"></div>
+                        </div>
+                        <div class="doctor-badge-wrap">
+                            <span class="badge-govt"><i class="fas fa-shield-alt"></i> AYUSH</span>
+                        </div>
+                    </div>
+                    <div class="doctor-body">
+                        <h3>Dr. Sarita Singh</h3>
+                        <span class="doctor-designation">Medical Officer AYUSH, Govt. of Bihar</span>
+                        <div class="doctor-tags">
+                            <span class="tag">BAMS</span>
+                            <span class="tag">MD</span>
+                            <span class="tag tag-specialty">Gynaecologist</span>
+                        </div>
+                        <p class="doctor-bio">Specializing in women's health with expertise in Ayurvedic gynaecology, prenatal care, fertility treatments, and holistic women's wellness programs.</p>
+                        <div class="doctor-highlights">
+                            <div class="dh-item"><i class="fas fa-check-circle"></i> Prenatal & Postnatal Care</div>
+                            <div class="dh-item"><i class="fas fa-check-circle"></i> Fertility Consultation</div>
+                            <div class="dh-item"><i class="fas fa-check-circle"></i> Ayurvedic Gynaecology</div>
+                        </div>
+                        <div class="doctor-actions">
+                            <a href="#booking" class="btn btn-primary btn-sm">
+                                <i class="fas fa-calendar"></i> Book Visit
+                            </a>
+                            <a href="#consultation" class="btn btn-outline-dark btn-sm">
+                                <i class="fas fa-video"></i> Online
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dr. Angad -->
+                <div class="doctor-card">
+                    <div class="doctor-glow"></div>
+                    <div class="doctor-header">
+                        <div class="doctor-avatar-wrap">
+                            <div class="doctor-avatar">
+                                <img src="images/dr-angad.jpg" alt="Dr. Angad">
+                            </div>
+                            <div class="avatar-ring"></div>
+                        </div>
+                        <div class="doctor-badge-wrap">
+                            <span class="badge-govt"><i class="fas fa-star"></i> Specialist</span>
+                        </div>
+                    </div>
+                    <div class="doctor-body">
+                        <h3>Dr. Angad</h3>
+                        <span class="doctor-designation">Medical Officer</span>
+                        <div class="doctor-tags">
+                            <span class="tag">Child Care</span>
+                            <span class="tag">General Physician</span>
+                            <span class="tag tag-specialty">Paediatrics</span>
+                        </div>
+                        <p class="doctor-bio">Expert in child healthcare, immunization programs, growth monitoring, nutrition guidance, and comprehensive general medicine for all age groups.</p>
+                        <div class="doctor-highlights">
+                            <div class="dh-item"><i class="fas fa-check-circle"></i> Child Immunization</div>
+                            <div class="dh-item"><i class="fas fa-check-circle"></i> Growth Monitoring</div>
+                            <div class="dh-item"><i class="fas fa-check-circle"></i> General Medicine</div>
+                        </div>
+                        <div class="doctor-actions">
+                            <a href="#booking" class="btn btn-primary btn-sm">
+                                <i class="fas fa-calendar"></i> Book Visit
+                            </a>
+                            <a href="#consultation" class="btn btn-outline-dark btn-sm">
+                                <i class="fas fa-video"></i> Online
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-briefcase-medical"></i> Services</span>
+                <h2>What We <span class="gradient-text">Offer</span></h2>
+                <p class="section-desc">Comprehensive medical care from consultation to recovery.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon-wrap">
+                        <i class="fas fa-female"></i>
+                    </div>
+                    <h3>Gynaecology</h3>
+                    <p>Complete women's health including prenatal, postnatal, and reproductive care.</p>
+                    <a href="#booking" class="service-link">Book Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon-wrap">
+                        <i class="fas fa-baby"></i>
+                    </div>
+                    <h3>Child Care</h3>
+                    <p>Paediatric care, vaccinations, growth monitoring, and nutrition guidance.</p>
+                    <a href="#booking" class="service-link">Book Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon-wrap">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>Ayurvedic Treatment</h3>
+                    <p>Traditional AYUSH therapies for chronic conditions, immunity, and wellness.</p>
+                    <a href="#booking" class="service-link">Book Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon-wrap">
+                        <i class="fas fa-notes-medical"></i>
+                    </div>
+                    <h3>General Medicine</h3>
+                    <p>Comprehensive diagnosis and treatment for common and complex conditions.</p>
+                    <a href="#booking" class="service-link">Book Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon-wrap">
+                        <i class="fas fa-laptop-medical"></i>
+                    </div>
+                    <h3>Online Consultation</h3>
+                    <p>Virtual consultations from the comfort of your home via video call.</p>
+                    <a href="#consultation" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon-wrap">
+                        <i class="fas fa-ambulance"></i>
+                    </div>
+                    <h3>Emergency Services</h3>
+                    <p>Round-the-clock emergency care and ambulance services available 24/7.</p>
+                    <a href="#contact" class="service-link">Contact <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Consultation Section -->
+    <section class="section consultation-section" id="consultation">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-comments"></i> Consultation</span>
+                <h2>Choose Your <span class="gradient-text">Mode</span></h2>
+                <p class="section-desc">Flexible options — visit us in person or consult from home.</p>
+            </div>
+            <div class="consultation-grid">
+                <div class="consult-card">
+                    <div class="consult-ribbon">In-Person</div>
+                    <div class="consult-icon"><i class="fas fa-hospital-alt"></i></div>
+                    <h3>Offline Consultation</h3>
+                    <p>Visit Sri Sai Hospital for face-to-face consultation.</p>
+                    <ul class="consult-features">
+                        <li><i class="fas fa-check-circle"></i> Physical examination</li>
+                        <li><i class="fas fa-check-circle"></i> Immediate treatment</li>
+                        <li><i class="fas fa-check-circle"></i> Lab tests on-site</li>
+                        <li><i class="fas fa-check-circle"></i> Prescription & medicines</li>
+                    </ul>
+                    <div class="consult-price">
+                        <div class="price-amount">₹300</div>
+                        <div class="price-label">Consultation Fee</div>
+                    </div>
+                    <a href="#booking" class="btn btn-primary btn-block">Book Offline Visit</a>
+                </div>
+                <div class="consult-card featured">
+                    <div class="consult-ribbon featured-ribbon">Most Popular</div>
+                    <div class="consult-icon"><i class="fas fa-laptop-medical"></i></div>
+                    <h3>Online Consultation</h3>
+                    <p>Connect with doctors via video call from anywhere.</p>
+                    <ul class="consult-features">
+                        <li><i class="fas fa-check-circle"></i> HD Video consultation</li>
+                        <li><i class="fas fa-check-circle"></i> Digital prescription</li>
+                        <li><i class="fas fa-check-circle"></i> Follow-up support</li>
+                        <li><i class="fas fa-check-circle"></i> No travel needed</li>
+                    </ul>
+                    <div class="consult-price">
+                        <div class="price-amount">₹200</div>
+                        <div class="price-label">Booking Fee</div>
+                    </div>
+                    <a href="#booking" class="btn btn-primary btn-block btn-glow">Book Online Consult</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="section booking-section" id="booking">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-calendar-check"></i> Appointment</span>
+                <h2>Book Your <span class="gradient-text">Appointment</span></h2>
+                <p class="section-desc">Fill in details and pay via UPI to confirm your booking.</p>
+            </div>
+            <div class="booking-wrapper">
+                <div class="booking-steps">
+                    <div class="step active" id="step1Indicator">
+                        <div class="step-num">1</div>
+                        <span>Details</span>
+                    </div>
+                    <div class="step-line"></div>
+                    <div class="step" id="step2Indicator">
+                        <div class="step-num">2</div>
+                        <span>Payment</span>
+                    </div>
+                    <div class="step-line"></div>
+                    <div class="step" id="step3Indicator">
+                        <div class="step-num">3</div>
+                        <span>Confirmed</span>
+                    </div>
+                </div>
+
+                <form class="booking-form" id="bookingForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="patientName"><i class="fas fa-user"></i> Patient Name *</label>
+                            <input type="text" id="patientName" name="patientName" required placeholder="Enter full name">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone"><i class="fas fa-phone"></i> Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="10-digit number" pattern="[0-9]{10}">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email"><i class="fas fa-envelope"></i> Email (Optional)</label>
+                            <input type="email" id="email" name="email" placeholder="Enter email address">
+                        </div>
+                        <div class="form-group">
+                            <label for="age"><i class="fas fa-birthday-cake"></i> Age *</label>
+                            <input type="number" id="age" name="age" required min="0" max="120" placeholder="Age in years">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="doctor"><i class="fas fa-user-md"></i> Select Doctor *</label>
+                            <select id="doctor" name="doctor" required>
+                                <option value="">Choose a doctor</option>
+                                <option value="dr-sarita">Dr. Sarita Singh - Gynaecologist</option>
+                                <option value="dr-angad">Dr. Angad - Child Care / General</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="consultType"><i class="fas fa-stethoscope"></i> Consultation Type *</label>
+                            <select id="consultType" name="consultType" required>
+                                <option value="">Select type</option>
+                                <option value="offline">Offline Visit (₹300)</option>
+                                <option value="online">Online Video (₹200)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="date"><i class="fas fa-calendar"></i> Preferred Date *</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="time"><i class="fas fa-clock"></i> Preferred Time *</label>
+                            <select id="time" name="time" required>
+                                <option value="">Select time slot</option>
+                                <option value="09:00">09:00 AM</option>
+                                <option value="09:30">09:30 AM</option>
+                                <option value="10:00">10:00 AM</option>
+                                <option value="10:30">10:30 AM</option>
+                                <option value="11:00">11:00 AM</option>
+                                <option value="11:30">11:30 AM</option>
+                                <option value="12:00">12:00 PM</option>
+                                <option value="14:00">02:00 PM</option>
+                                <option value="14:30">02:30 PM</option>
+                                <option value="15:00">03:00 PM</option>
+                                <option value="15:30">03:30 PM</option>
+                                <option value="16:00">04:00 PM</option>
+                                <option value="16:30">04:30 PM</option>
+                                <option value="17:00">05:00 PM</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="symptoms"><i class="fas fa-notes-medical"></i> Symptoms / Reason</label>
+                        <textarea id="symptoms" name="symptoms" rows="3" placeholder="Briefly describe your symptoms or reason for visit"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block btn-lg btn-glow">
+                        <i class="fas fa-arrow-right"></i> Proceed to Payment
+                    </button>
+                </form>
+
+                <!-- Payment Section -->
+                <div class="payment-section" id="paymentSection" style="display: none;">
+                    <div class="payment-card">
+                        <div class="payment-header">
+                            <i class="fas fa-lock"></i>
+                            <h3>Secure UPI Payment</h3>
+                        </div>
+                        <div class="payment-amount-box" id="paymentAmount">
+                            <span class="pay-label">Amount to Pay</span>
+                            <span class="pay-amount">₹200</span>
+                        </div>
+                        <div class="upi-section">
+                            <div class="upi-qr">
+                                <div class="qr-box" id="qrCode">
+                                    <i class="fas fa-qrcode"></i>
+                                    <p>Scan to Pay</p>
+                                </div>
+                            </div>
+                            <div class="upi-details">
+                                <p class="upi-heading">Pay via UPI ID</p>
+                                <div class="upi-id-box">
+                                    <span class="upi-id" id="upiId">srisaihospital@upi</span>
+                                    <button class="copy-btn" onclick="copyUPI()" type="button">
+                                        <i class="fas fa-copy"></i>
+                                    </button>
+                                </div>
+                                <p class="upi-heading" style="margin-top: 15px;">Quick Pay with Apps</p>
+                                <div class="upi-apps">
+                                    <button class="upi-app-btn" onclick="payWithUPI('gpay')" type="button">
+                                        <i class="fab fa-google-pay"></i>
+                                        <span>GPay</span>
+                                    </button>
+                                    <button class="upi-app-btn" onclick="payWithUPI('phonepe')" type="button">
+                                        <i class="fas fa-mobile-alt"></i>
+                                        <span>PhonePe</span>
+                                    </button>
+                                    <button class="upi-app-btn" onclick="payWithUPI('paytm')" type="button">
+                                        <i class="fas fa-wallet"></i>
+                                        <span>Paytm</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="payment-note">
+                            <i class="fas fa-info-circle"></i>
+                            <span>After payment, enter the UPI Transaction ID below to confirm.</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="transactionId"><i class="fas fa-receipt"></i> Transaction ID *</label>
+                            <input type="text" id="transactionId" placeholder="Enter UPI Transaction ID">
+                        </div>
+                        <button class="btn btn-primary btn-block btn-lg btn-glow" onclick="confirmBooking()" type="button">
+                            <i class="fas fa-check-circle"></i> Confirm Booking
+                        </button>
+                        <button class="btn btn-ghost btn-block" onclick="goBackToForm()" type="button">
+                            <i class="fas fa-arrow-left"></i> Back to Form
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-quote-left"></i> Testimonials</span>
+                <h2>Patient <span class="gradient-text">Stories</span></h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="tc-quote"><i class="fas fa-quote-left"></i></div>
+                    <div class="tc-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"Dr. Sarita Singh provided exceptional care during my pregnancy. Her blend of Ayurvedic wisdom and modern medicine gave me complete confidence."</p>
+                    <div class="tc-author">
+                        <div class="tc-avatar"><i class="fas fa-user"></i></div>
+                        <div>
+                            <strong>Priya Kumari</strong>
+                            <span>Maternity Care</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="tc-quote"><i class="fas fa-quote-left"></i></div>
+                    <div class="tc-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"Dr. Angad is wonderful with children. My son felt completely comfortable. The care and attention to detail is remarkable!"</p>
+                    <div class="tc-author">
+                        <div class="tc-avatar"><i class="fas fa-user"></i></div>
+                        <div>
+                            <strong>Rakesh Kumar</strong>
+                            <span>Child Care</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="tc-quote"><i class="fas fa-quote-left"></i></div>
+                    <div class="tc-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>"Online consultation was incredibly convenient. Got proper diagnosis and digital prescription without traveling. Highly recommended!"</p>
+                    <div class="tc-author">
+                        <div class="tc-avatar"><i class="fas fa-user"></i></div>
+                        <div>
+                            <strong>Sunita Devi</strong>
+                            <span>Online Consultation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-map-marker-alt"></i> Contact</span>
+                <h2>Get in <span class="gradient-text">Touch</span></h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-cards">
+                    <div class="contact-card">
+                        <div class="cc-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h4>Visit Us</h4>
+                        <p>Sri Sai Hospital, Main Road,<br>Bihar, India</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="cc-icon"><i class="fas fa-phone-alt"></i></div>
+                        <h4>Call Us</h4>
+                        <p>+91 XXXXX XXXXX<br>+91 XXXXX XXXXX</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="cc-icon"><i class="fas fa-clock"></i></div>
+                        <h4>Working Hours</h4>
+                        <p>Mon - Sat: 9:00 AM - 6:00 PM<br>Sunday: Emergency Only</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="cc-icon"><i class="fas fa-envelope"></i></div>
+                        <h4>Email Us</h4>
+                        <p>info@srisaihospital.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="logo-icon"><i class="fas fa-plus"></i></div>
+                        <div>
+                            <span class="logo-name">Sri Sai Hospital</span>
+                        </div>
+                    </div>
+                    <p>Providing quality healthcare with a blend of Ayurvedic wisdom and modern medicine. Your health is our priority.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#about">About Us</a>
+                    <a href="#doctors">Our Doctors</a>
+                    <a href="#services">Services</a>
+                    <a href="#booking">Book Appointment</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <a href="#">Gynaecology</a>
+                    <a href="#">Child Care</a>
+                    <a href="#">General Medicine</a>
+                    <a href="#">Ayurvedic Treatment</a>
+                    <a href="#">Online Consultation</a>
+                </div>
+                <div class="footer-emergency">
+                    <h4>Emergency</h4>
+                    <div class="emergency-box">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>+91 XXXXX XXXXX</span>
+                    </div>
+                    <p>Available 24/7 for emergencies</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Sri Sai Hospital. All rights reserved. | Designed with <i class="fas fa-heart"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div class="modal-overlay" id="successModal">
+        <div class="modal-content">
+            <div class="modal-close" onclick="closeModal()"><i class="fas fa-times"></i></div>
+            <div class="modal-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h3>Booking Confirmed! 🎉</h3>
+            <p>Your appointment has been booked successfully. A confirmation will be sent to your phone.</p>
+            <div class="booking-summary" id="bookingDetails"></div>
+            <button class="btn btn-primary" onclick="closeModal()">Done</button>
+        </div>
+    </div>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/91XXXXXXXXXX" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="wa-tooltip">Chat with us</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
