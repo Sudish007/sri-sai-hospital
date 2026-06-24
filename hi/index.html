@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>श्री साईं अस्पताल | प्रीमियम स्वास्थ्य सेवा</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="pulse-loader">
+            <i class="fas fa-heartbeat"></i>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-plus"></i>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-name">श्री साईं</span>
+                    <span class="logo-sub">अस्पताल</span>
+                </div>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">होम</a></li>
+                <li><a href="#about">हमारे बारे में</a></li>
+                <li><a href="#doctors">डॉक्टर्स</a></li>
+                <li><a href="#services">सेवाएँ</a></li>
+                <li><a href="#consultation">परामर्श</a></li>
+                <li><a href="#contact">संपर्क</a></li>
+                <li><a href="#booking" class="btn-nav"><i class="fas fa-calendar-check"></i> अभी बुक करें</a></li>
+            </ul>
+            <a href="../index.html" class="lang-toggle">
+                <span>English</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="floating-icons">
+                <i class="fas fa-heartbeat float-icon fi-1"></i>
+                <i class="fas fa-leaf float-icon fi-2"></i>
+                <i class="fas fa-baby float-icon fi-3"></i>
+                <i class="fas fa-stethoscope float-icon fi-4"></i>
+            </div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <div class="hero-badge">
+                    <i class="fas fa-award"></i>
+                    <span>बिहार सरकार द्वारा मान्यता प्राप्त</span>
+                </div>
+                <h1>जीवन की देखभाल,<br><span class="gradient-text">दिल से उपचार</span></h1>
+                <p class="hero-subtitle">विशेषज्ञ आयुर्वेदिक एवं आधुनिक स्वास्थ्य सेवा — स्त्री रोग, शिशु देखभाल एवं सामान्य चिकित्सा एक भरोसेमंद छत के नीचे।</p>
+                <div class="hero-btns">
+                    <a href="#booking" class="btn btn-primary btn-glow">
+                        <i class="fas fa-calendar-alt"></i> अपॉइंटमेंट बुक करें
+                    </a>
+                    <a href="#consultation" class="btn btn-glass">
+                        <i class="fas fa-video"></i> ऑनलाइन परामर्श
+                    </a>
+                </div>
+                <div class="hero-trust">
+                    <div class="trust-avatars">
+                        <div class="avatar"><i class="fas fa-user"></i></div>
+                        <div class="avatar"><i class="fas fa-user"></i></div>
+                        <div class="avatar"><i class="fas fa-user"></i></div>
+                        <div class="avatar avatar-more">+</div>
+                    </div>
+                    <p><strong>15,000+</strong> खुश मरीज़ हम पर भरोसा करते हैं</p>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-card-stack">
+                    <div class="hero-info-card hc-1">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>आयुष प्रमाणित</span>
+                    </div>
+                    <div class="hero-info-card hc-2">
+                        <i class="fas fa-clock"></i>
+                        <span>24/7 आपातकालीन</span>
+                    </div>
+                    <div class="hero-info-card hc-3">
+                        <i class="fas fa-star"></i>
+                        <span>4.9 रेटिंग</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0,60 C360,120 720,0 1080,60 C1260,90 1380,80 1440,60 L1440,120 L0,120 Z" fill="white"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Stats Bar -->
+    <section class="stats-bar">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-user-md"></i></div>
+                    <div class="stat-content">
+                        <span class="stat-number" data-count="2">0</span>
+                        <span class="stat-label">विशेषज्ञ डॉक्टर</span>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-users"></i></div>
+                    <div class="stat-content">
+                        <span class="stat-number" data-count="15000">0</span>
+                        <span class="stat-label">मरीज़ों का इलाज</span>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-award"></i></div>
+                    <div class="stat-content">
+                        <span class="stat-number" data-count="10">0</span>
+                        <span class="stat-label">वर्षों का अनुभव</span>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-smile"></i></div>
+                    <div class="stat-content">
+                        <span class="stat-number" data-count="98">0</span>
+                        <span class="stat-label">% संतुष्टि</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-info-circle"></i> हमारे बारे में</span>
+                <h2>एक विरासत <span class="gradient-text">उपचार और देखभाल</span></h2>
+                <p class="section-desc">श्री साईं अस्पताल प्राचीन आयुर्वेदिक ज्ञान को आधुनिक चिकित्सा पद्धतियों के साथ जोड़कर संपूर्ण पारिवारिक स्वास्थ्य सेवा प्रदान करता है।</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="about-icon-wrap">
+                        <div class="about-icon"><i class="fas fa-leaf"></i></div>
+                    </div>
+                    <h3>आयुर्वेदिक उत्कृष्टता</h3>
+                    <p>सरकार द्वारा मान्यता प्राप्त आयुष पद्धतियाँ, प्राचीन उपचार परंपराओं पर आधारित।</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon-wrap">
+                        <div class="about-icon"><i class="fas fa-heartbeat"></i></div>
+                    </div>
+                    <h3>आधुनिक निदान</h3>
+                    <p>सर्वोत्तम परिणामों के लिए अत्याधुनिक उपकरण और उपचार प्रोटोकॉल।</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon-wrap">
+                        <div class="about-icon"><i class="fas fa-hand-holding-heart"></i></div>
+                    </div>
+                    <h3>सहानुभूतिपूर्ण देखभाल</h3>
+                    <p>व्यक्तिगत उपचार और फॉलो-अप देखभाल के साथ मरीज़-प्रथम दृष्टिकोण।</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon-wrap">
+                        <div class="about-icon"><i class="fas fa-certificate"></i></div>
+                    </div>
+                    <h3>सरकार मान्यता प्राप्त</h3>
+                    <p>गुणवत्तापूर्ण स्वास्थ्य सेवा के लिए बिहार सरकार द्वारा पूर्ण रूप से लाइसेंस प्राप्त।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Doctors Section -->
+    <section class="section doctors" id="doctors">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-user-md"></i> हमारे विशेषज्ञ</span>
+                <h2>मिलिए हमारे <span class="gradient-text">विशेषज्ञों से</span></h2>
+                <p class="section-desc">बिहार सरकार द्वारा मान्यता प्राप्त डॉक्टर</p>
+            </div>
+            <div class="doctors-grid">
+                <div class="doctor-card">
+                    <div class="doctor-glow"></div>
+                    <div class="doctor-header">
+                        <div class="doctor-avatar-wrap">
+                            <div class="doctor-avatar">
+                                <img src="../images/dr-sarita.jpg" alt="Dr. Sarita Singh">
+                            </div>
+                            <div class="avatar-ring"></div>
+                        </div>
+                        <div class="doctor-badge-wrap">
+                            <span class="badge-govt"><i class="fas fa-venus"></i> प्रसूति-स्त्री रोग विशेषज्ञ</span>
+                        </div>
+                    </div>
+                    <div class="doctor-body">
+                        <h3>डॉ. सरिता सिंह</h3>
+                        <span class="doctor-designation">स्त्री रोग विशेषज्ञ | चिकित्सा अधिकारी आयुष, बिहार सरकार</span>
+                        <div class="doctor-tags">
+                            <span class="tag">BAMS</span>
+                            <span class="tag">MS</span>
+                            <span class="tag tag-specialty">स्त्री रोग विशेषज्ञ</span>
+                        </div>
+                        <p class="doctor-bio">आयुर्वेदिक चिकित्सा और स्त्री रोग में विशेषज्ञ। प्रसव पूर्व देखभाल, प्रजनन उपचार, और समग्र महिला स्वास्थ्य कार्यक्रमों में गहरी विशेषज्ञता।</p>
+                        <div class="doctor-highlights">
+                            <div class="dh-item"><i class="fas fa-check-circle"></i> आयुर्वेदिक चिकित्सा और उपचार</div>
+                            <div class="dh-item"><i class="fas fa-check-circle"></i> प्रसव पूर्व और प्रसवोत्तर देखभाल</div>
+                            <div class="dh-item"><i class="fas fa-check-circle"></i> प्रजनन परामर्श</div>
+                            <div class="dh-item"><i class="fas fa-check-circle"></i> स्त्री रोग</div>
+                        </div>
+                        <div class="doctor-actions">
+                            <a href="#booking" class="btn btn-primary btn-sm"><i class="fas fa-calendar"></i> विज़िट बुक करें</a>
+                            <a href="#consultation" class="btn btn-outline-dark btn-sm"><i class="fas fa-video"></i> ऑनलाइन</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="doctor-card">
+                    <div class="doctor-glow"></div>
+                    <div class="doctor-header">
+                        <div class="doctor-avatar-wrap">
+                            <div class="doctor-avatar">
+                                <img src="../images/dr-angad.jpg" alt="Dr. Angad">
+                            </div>
+                            <div class="avatar-ring"></div>
+                        </div>
+                        <div class="doctor-badge-wrap">
+                            <span class="badge-govt"><i class="fas fa-baby"></i> बाल रोग विशेषज्ञ</span>
+                        </div>
+                    </div>
+                    <div class="doctor-body">
+                        <h3>डॉ. अंगद</h3>
+                        <span class="doctor-designation">चिकित्सा अधिकारी आयुष, बिहार सरकार</span>
+                        <div class="doctor-tags">
+                            <span class="tag">BAMS</span>
+                            <span class="tag">MD</span>
+                            <span class="tag tag-specialty">बाल देखभाल विशेषज्ञ</span>
+                            <span class="tag tag-specialty">सामान्य चिकित्सक</span>
+                        </div>
+                        <p class="doctor-bio">बाल स्वास्थ्य, टीकाकरण, विकास निगरानी, पोषण मार्गदर्शन, और सभी आयु वर्गों के लिए सामान्य चिकित्सा में विशेषज्ञ।</p>
+                        <div class="doctor-highlights">
+                            <div class="dh-item"><i class="fas fa-check-circle"></i> बाल टीकाकरण</div>
+                            <div class="dh-item"><i class="fas fa-check-circle"></i> विकास निगरानी</div>
+                            <div class="dh-item"><i class="fas fa-check-circle"></i> सामान्य चिकित्सा</div>
+                        </div>
+                        <div class="doctor-actions">
+                            <a href="#booking" class="btn btn-primary btn-sm"><i class="fas fa-calendar"></i> विज़िट बुक करें</a>
+                            <a href="#consultation" class="btn btn-outline-dark btn-sm"><i class="fas fa-video"></i> ऑनलाइन</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-briefcase-medical"></i> सेवाएँ</span>
+                <h2>हम क्या <span class="gradient-text">प्रदान करते हैं</span></h2>
+                <p class="section-desc">परामर्श से लेकर रिकवरी तक व्यापक चिकित्सा देखभाल।</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon-wrap"><i class="fas fa-female"></i></div>
+                    <h3>स्त्री रोग</h3>
+                    <p>प्रसव पूर्व, प्रसवोत्तर और प्रजनन देखभाल सहित संपूर्ण महिला स्वास्थ्य।</p>
+                    <a href="#booking" class="service-link">अभी बुक करें <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon-wrap"><i class="fas fa-baby"></i></div>
+                    <h3>शिशु देखभाल</h3>
+                    <p>बाल चिकित्सा, टीकाकरण, विकास निगरानी और पोषण मार्गदर्शन।</p>
+                    <a href="#booking" class="service-link">अभी बुक करें <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon-wrap"><i class="fas fa-spa"></i></div>
+                    <h3>आयुर्वेदिक उपचार</h3>
+                    <p>पुरानी बीमारियों, प्रतिरक्षा और स्वास्थ्य के लिए पारंपरिक आयुष चिकित्सा।</p>
+                    <a href="#booking" class="service-link">अभी बुक करें <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon-wrap"><i class="fas fa-notes-medical"></i></div>
+                    <h3>सामान्य चिकित्सा</h3>
+                    <p>सामान्य और जटिल बीमारियों के लिए व्यापक निदान और उपचार।</p>
+                    <a href="#booking" class="service-link">अभी बुक करें <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon-wrap"><i class="fas fa-laptop-medical"></i></div>
+                    <h3>ऑनलाइन परामर्श</h3>
+                    <p>वीडियो कॉल के माध्यम से घर बैठे आरामदायक ऑनलाइन परामर्श।</p>
+                    <a href="#consultation" class="service-link">और जानें <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon-wrap"><i class="fas fa-ambulance"></i></div>
+                    <h3>आपातकालीन सेवाएँ</h3>
+                    <p>24/7 उपलब्ध आपातकालीन देखभाल और एम्बुलेंस सेवाएँ।</p>
+                    <a href="#contact" class="service-link">संपर्क करें <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Consultation Section -->
+    <section class="section consultation-section" id="consultation">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-comments"></i> परामर्श</span>
+                <h2>अपना <span class="gradient-text">माध्यम चुनें</span></h2>
+                <p class="section-desc">लचीले विकल्प — व्यक्तिगत रूप से मिलें या घर से परामर्श करें।</p>
+            </div>
+            <div class="consultation-grid">
+                <div class="consult-card">
+                    <div class="consult-ribbon">व्यक्तिगत</div>
+                    <div class="consult-icon"><i class="fas fa-hospital-alt"></i></div>
+                    <h3>ऑफ़लाइन परामर्श</h3>
+                    <p>आमने-सामने परामर्श के लिए श्री साईं अस्पताल आएँ।</p>
+                    <ul class="consult-features">
+                        <li><i class="fas fa-check-circle"></i> शारीरिक जाँच</li>
+                        <li><i class="fas fa-check-circle"></i> तत्काल उपचार</li>
+                        <li><i class="fas fa-check-circle"></i> स्थल पर लैब परीक्षण</li>
+                        <li><i class="fas fa-check-circle"></i> नुस्खा और दवाइयाँ</li>
+                    </ul>
+                    <div class="consult-price">
+                        <div class="price-amount">₹300</div>
+                        <div class="price-label">परामर्श शुल्क</div>
+                    </div>
+                    <a href="#booking" class="btn btn-primary btn-block">ऑफ़लाइन विज़िट बुक करें</a>
+                </div>
+                <div class="consult-card featured">
+                    <div class="consult-ribbon featured-ribbon">सबसे लोकप्रिय</div>
+                    <div class="consult-icon"><i class="fas fa-laptop-medical"></i></div>
+                    <h3>ऑनलाइन परामर्श</h3>
+                    <p>कहीं से भी वीडियो कॉल के माध्यम से डॉक्टरों से जुड़ें।</p>
+                    <ul class="consult-features">
+                        <li><i class="fas fa-check-circle"></i> HD वीडियो परामर्श</li>
+                        <li><i class="fas fa-check-circle"></i> डिजिटल नुस्खा</li>
+                        <li><i class="fas fa-check-circle"></i> फॉलो-अप सहायता</li>
+                        <li><i class="fas fa-check-circle"></i> यात्रा की आवश्यकता नहीं</li>
+                    </ul>
+                    <div class="consult-price">
+                        <div class="price-amount">₹200</div>
+                        <div class="price-label">बुकिंग शुल्क</div>
+                    </div>
+                    <a href="#booking" class="btn btn-primary btn-block btn-glow">ऑनलाइन परामर्श बुक करें</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="section booking-section" id="booking">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-calendar-check"></i> अपॉइंटमेंट</span>
+                <h2>अपना <span class="gradient-text">अपॉइंटमेंट</span> बुक करें</h2>
+                <p class="section-desc">बुकिंग पुष्टि के लिए विवरण भरें और UPI से भुगतान करें।</p>
+            </div>
+            <div class="booking-wrapper">
+                <div class="booking-steps">
+                    <div class="step active" id="step1Indicator">
+                        <div class="step-num">1</div>
+                        <span>विवरण</span>
+                    </div>
+                    <div class="step-line"></div>
+                    <div class="step" id="step2Indicator">
+                        <div class="step-num">2</div>
+                        <span>भुगतान</span>
+                    </div>
+                    <div class="step-line"></div>
+                    <div class="step" id="step3Indicator">
+                        <div class="step-num">3</div>
+                        <span>पुष्टि</span>
+                    </div>
+                </div>
+
+                <form class="booking-form" id="bookingForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="patientName"><i class="fas fa-user"></i> मरीज़ का नाम *</label>
+                            <input type="text" id="patientName" name="patientName" required placeholder="पूरा नाम दर्ज करें">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone"><i class="fas fa-phone"></i> फ़ोन नंबर *</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="10 अंकों का नंबर" pattern="[0-9]{10}">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email"><i class="fas fa-envelope"></i> ईमेल (वैकल्पिक)</label>
+                            <input type="email" id="email" name="email" placeholder="ईमेल पता दर्ज करें">
+                        </div>
+                        <div class="form-group">
+                            <label for="age"><i class="fas fa-birthday-cake"></i> उम्र *</label>
+                            <input type="number" id="age" name="age" required min="0" max="120" placeholder="उम्र वर्षों में">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="doctor"><i class="fas fa-user-md"></i> डॉक्टर चुनें *</label>
+                            <select id="doctor" name="doctor" required>
+                                <option value="">डॉक्टर चुनें</option>
+                                <option value="dr-sarita">डॉ. सरिता सिंह - स्त्री रोग विशेषज्ञ</option>
+                                <option value="dr-angad">डॉ. अंगद - बाल देखभाल / सामान्य</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="consultType"><i class="fas fa-stethoscope"></i> परामर्श प्रकार *</label>
+                            <select id="consultType" name="consultType" required>
+                                <option value="">प्रकार चुनें</option>
+                                <option value="offline">ऑफ़लाइन विज़िट (₹300)</option>
+                                <option value="online">ऑनलाइन वीडियो (₹200)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="date"><i class="fas fa-calendar"></i> पसंदीदा तिथि *</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="time"><i class="fas fa-clock"></i> पसंदीदा समय *</label>
+                            <select id="time" name="time" required>
+                                <option value="">समय चुनें</option>
+                                <option value="09:00">09:00 AM</option>
+                                <option value="09:30">09:30 AM</option>
+                                <option value="10:00">10:00 AM</option>
+                                <option value="10:30">10:30 AM</option>
+                                <option value="11:00">11:00 AM</option>
+                                <option value="11:30">11:30 AM</option>
+                                <option value="12:00">12:00 PM</option>
+                                <option value="14:00">02:00 PM</option>
+                                <option value="14:30">02:30 PM</option>
+                                <option value="15:00">03:00 PM</option>
+                                <option value="15:30">03:30 PM</option>
+                                <option value="16:00">04:00 PM</option>
+                                <option value="16:30">04:30 PM</option>
+                                <option value="17:00">05:00 PM</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="symptoms"><i class="fas fa-notes-medical"></i> लक्षण / कारण</label>
+                        <textarea id="symptoms" name="symptoms" rows="3" placeholder="अपने लक्षण या विज़िट का कारण संक्षेप में बताएँ"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block btn-lg btn-glow">
+                        <i class="fas fa-arrow-right"></i> भुगतान की ओर बढ़ें
+                    </button>
+                </form>
+
+                <!-- Payment Section -->
+                <div class="payment-section" id="paymentSection" style="display: none;">
+                    <div class="payment-card">
+                        <div class="payment-header">
+                            <i class="fas fa-lock"></i>
+                            <h3>सुरक्षित UPI भुगतान</h3>
+                        </div>
+                        <div class="payment-amount-box" id="paymentAmount">
+                            <span class="pay-label">भुगतान राशि</span>
+                            <span class="pay-amount">₹200</span>
+                        </div>
+                        <div class="upi-section">
+                            <div class="upi-qr">
+                                <div class="qr-box" id="qrCode">
+                                    <i class="fas fa-qrcode"></i>
+                                    <p>स्कैन करके भुगतान करें</p>
+                                </div>
+                            </div>
+                            <div class="upi-details">
+                                <p class="upi-heading">UPI ID से भुगतान करें</p>
+                                <div class="upi-id-box">
+                                    <span class="upi-id" id="upiId">srisaihospital@upi</span>
+                                    <button class="copy-btn" onclick="copyUPI()" type="button"><i class="fas fa-copy"></i></button>
+                                </div>
+                                <p class="upi-heading" style="margin-top: 15px;">ऐप्स से तुरंत भुगतान</p>
+                                <div class="upi-apps">
+                                    <button class="upi-app-btn" onclick="payWithUPI('gpay')" type="button"><i class="fab fa-google-pay"></i><span>GPay</span></button>
+                                    <button class="upi-app-btn" onclick="payWithUPI('phonepe')" type="button"><i class="fas fa-mobile-alt"></i><span>PhonePe</span></button>
+                                    <button class="upi-app-btn" onclick="payWithUPI('paytm')" type="button"><i class="fas fa-wallet"></i><span>Paytm</span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="payment-note">
+                            <i class="fas fa-info-circle"></i>
+                            <span>भुगतान के बाद, पुष्टि के लिए नीचे UPI ट्रांजैक्शन ID दर्ज करें।</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="transactionId"><i class="fas fa-receipt"></i> ट्रांजैक्शन ID *</label>
+                            <input type="text" id="transactionId" placeholder="UPI ट्रांजैक्शन ID दर्ज करें">
+                        </div>
+                        <button class="btn btn-primary btn-block btn-lg btn-glow" onclick="confirmBooking()" type="button">
+                            <i class="fas fa-check-circle"></i> बुकिंग पुष्टि करें
+                        </button>
+                        <button class="btn btn-ghost btn-block" onclick="goBackToForm()" type="button">
+                            <i class="fas fa-arrow-left"></i> फॉर्म पर वापस
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-quote-left"></i> प्रशंसापत्र</span>
+                <h2>मरीज़ों की <span class="gradient-text">कहानियाँ</span></h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="tc-quote"><i class="fas fa-quote-left"></i></div>
+                    <div class="tc-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"डॉ. सरिता सिंह ने मेरी गर्भावस्था के दौरान असाधारण देखभाल प्रदान की। आयुर्वेदिक ज्ञान और आधुनिक चिकित्सा के उनके मिश्रण ने मुझे पूर्ण विश्वास दिया।"</p>
+                    <div class="tc-author">
+                        <div class="tc-avatar"><i class="fas fa-user"></i></div>
+                        <div><strong>प्रिया कुमारी</strong><span>मातृत्व देखभाल</span></div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="tc-quote"><i class="fas fa-quote-left"></i></div>
+                    <div class="tc-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"डॉ. अंगद बच्चों के साथ बहुत अच्छे हैं। मेरा बेटा पूरी तरह सहज महसूस करता था। देखभाल और विस्तार पर ध्यान उल्लेखनीय है!"</p>
+                    <div class="tc-author">
+                        <div class="tc-avatar"><i class="fas fa-user"></i></div>
+                        <div><strong>राकेश कुमार</strong><span>बाल देखभाल</span></div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="tc-quote"><i class="fas fa-quote-left"></i></div>
+                    <div class="tc-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div>
+                    <p>"ऑनलाइन परामर्श अविश्वसनीय रूप से सुविधाजनक था। बिना यात्रा के उचित निदान और डिजिटल नुस्खा मिला। अत्यधिक अनुशंसित!"</p>
+                    <div class="tc-author">
+                        <div class="tc-avatar"><i class="fas fa-user"></i></div>
+                        <div><strong>सुनीता देवी</strong><span>ऑनलाइन परामर्श</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-map-marker-alt"></i> संपर्क</span>
+                <h2>हमसे <span class="gradient-text">संपर्क करें</span></h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-cards">
+                    <div class="contact-card">
+                        <div class="cc-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h4>हमसे मिलें</h4>
+                        <p>श्री साईं अस्पताल, मुख्य सड़क,<br>बिहार, भारत</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="cc-icon"><i class="fas fa-phone-alt"></i></div>
+                        <h4>कॉल करें</h4>
+                        <p>+91 88738 88822<br>+91 88738 88822</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="cc-icon"><i class="fas fa-clock"></i></div>
+                        <h4>कार्य समय</h4>
+                        <p>सोम - शनि: सुबह 9:00 - शाम 6:00<br>रविवार: केवल आपातकाल</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="cc-icon"><i class="fas fa-envelope"></i></div>
+                        <h4>ईमेल करें</h4>
+                        <p>info@srisaihospital.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="logo-icon"><i class="fas fa-plus"></i></div>
+                        <div><span class="logo-name">श्री साईं अस्पताल</span></div>
+                    </div>
+                    <p>आयुर्वेदिक ज्ञान और आधुनिक चिकित्सा के मिश्रण से गुणवत्तापूर्ण स्वास्थ्य सेवा। आपका स्वास्थ्य हमारी प्राथमिकता है।</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>त्वरित लिंक</h4>
+                    <a href="#home">होम</a>
+                    <a href="#about">हमारे बारे में</a>
+                    <a href="#doctors">हमारे डॉक्टर</a>
+                    <a href="#services">सेवाएँ</a>
+                    <a href="#booking">अपॉइंटमेंट बुक करें</a>
+                </div>
+                <div class="footer-links">
+                    <h4>सेवाएँ</h4>
+                    <a href="#">स्त्री रोग</a>
+                    <a href="#">शिशु देखभाल</a>
+                    <a href="#">सामान्य चिकित्सा</a>
+                    <a href="#">आयुर्वेदिक उपचार</a>
+                    <a href="#">ऑनलाइन परामर्श</a>
+                </div>
+                <div class="footer-emergency">
+                    <h4>आपातकाल</h4>
+                    <div class="emergency-box">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>+91 88738 88822</span>
+                    </div>
+                    <p>आपातकाल के लिए 24/7 उपलब्ध</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 श्री साईं अस्पताल। सर्वाधिकार सुरक्षित। | <i class="fas fa-heart"></i> से बनाया गया</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div class="modal-overlay" id="successModal">
+        <div class="modal-content">
+            <div class="modal-close" onclick="closeModal()"><i class="fas fa-times"></i></div>
+            <div class="modal-icon"><i class="fas fa-check-circle"></i></div>
+            <h3>बुकिंग पुष्टि! 🎉</h3>
+            <p>आपकी अपॉइंटमेंट सफलतापूर्वक बुक हो गई है। पुष्टि आपके फ़ोन पर भेजी जाएगी।</p>
+            <div class="booking-summary" id="bookingDetails"></div>
+            <button class="btn btn-primary" onclick="closeModal()">हो गया</button>
+        </div>
+    </div>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/918873888822" class="whatsapp-float" target="_blank" aria-label="WhatsApp पर बात करें">
+        <i class="fab fa-whatsapp"></i>
+        <span class="wa-tooltip">हमसे बात करें</span>
+    </a>
+
+    <script src="../script.js"></script>
+</body>
+</html>
