@@ -363,3 +363,48 @@ img { max-width: 100%; display: block; }
     .contact-cards { grid-template-columns: 1fr; }
     .about-grid { grid-template-columns: 1fr; }
 }
+
+/* Language Toggle */
+.lang-toggle {
+    background: rgba(255,255,255,0.12);
+    border: 1px solid rgba(255,255,255,0.25);
+    color: white;
+    padding: 8px 16px;
+    border-radius: var(--radius-full);
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    font-size: 0.85rem;
+    transition: var(--transition);
+    margin-left: 10px;
+    backdrop-filter: blur(5px);
+}
+
+.lang-toggle:hover {
+    background: var(--accent);
+    border-color: var(--accent);
+    transform: translateY(-1px);
+}
+
+.navbar.scrolled .lang-toggle {
+    background: var(--bg-secondary);
+    border-color: rgba(0,184,148,0.2);
+    color: var(--primary-dark);
+}
+
+.navbar.scrolled .lang-toggle:hover {
+    background: var(--accent);
+    color: white;
+}
+
+@media(max-width: 768px) {
+    .lang-toggle {
+        position: fixed;
+        top: 18px;
+        right: 60px;
+        z-index: 1001;
+    }
+    .navbar.scrolled .lang-toggle {
+        background: var(--bg-secondary);
+    }
+}
