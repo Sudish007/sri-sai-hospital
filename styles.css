@@ -163,7 +163,7 @@ img { max-width: 100%; display: block; }
 .doctor-avatar-wrap { position: relative; display: inline-block; }
 .doctor-avatar { width: 120px; height: 120px; background: rgba(255,255,255,0.15); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto; overflow: hidden; }
 .doctor-avatar i { font-size: 2.5rem; color: white; }
-.doctor-avatar img { width: 100%; height: 100%; object-fit: cover; object-position: center top; border-radius: 50%; }
+.doctor-avatar img { width: 100%; height: 100%; object-fit: cover; object-position: center top; border-radius: 50%; transform: scale(1.4); }
 .avatar-ring { position: absolute; inset: -8px; border-radius: 50%; border: 2px dashed rgba(0,184,148,0.5); animation: spin 10s linear infinite; }
 @keyframes spin { from{transform:rotate(0)} to{transform:rotate(360deg)} }
 .doctor-badge-wrap { position: absolute; top: 15px; right: 15px; }
